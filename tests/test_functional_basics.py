@@ -13,6 +13,6 @@ class NewVisitorTest(unittest.TestCase):
 
     def test_can_start_a_list_and_retrieve_later(self):
         self.browser.get('http://localhost:8000')
-        self.assertIn('Django', self.browser.title)
+        self.assertIn('Superlists', self.browser.title)
 
         self.fail('FINISH')
